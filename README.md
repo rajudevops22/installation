@@ -10,7 +10,7 @@ java and jenkins
 
 #JENKINS INSTALLATION
 
-#$ 1. go to jenkins.in site
+#$ 1. go to jenkins.io site
    2. click on downloads
    3. select your o/s , here i am selected ubuntu
    4. wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add
@@ -21,3 +21,6 @@ java and jenkins
    7. start the jenkins server
       systemctl start jenkins
       systemctl status jenkins
+   8. now goto browser and enter ip address:8080
+   9. it will show the initial admin passwrd inside the node on below file
+     /var/lib/jenkins/secrets/initialAdminPassword
