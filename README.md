@@ -21,3 +21,7 @@ java and jenkins
    7. start the jenkins server
       systemctl start jenkins
       systemctl status jenkins
+      
+   8. now goto browser and enter ip address:8080
+   9. it will show the initial admin passwrd inside the node on below file
+     /var/lib/jenkins/secrets/initialAdminPassword
